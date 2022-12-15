@@ -1,0 +1,11 @@
+.logo{
+    background-color: rgb(255, 193, 232);
+    width: 100vh;
+    height: 24vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 100vmax;
+}
+

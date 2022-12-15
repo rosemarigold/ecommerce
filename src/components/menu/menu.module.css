@@ -1,0 +1,19 @@
+#menu{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding: 0.4rem;
+}
+#menu h1{
+    color: rgb(254, 171, 224);
+    font-size: x-large;
+    cursor: pointer;
+}
+#menu h1:hover{
+    opacity: 50%;
+    transition: 0.5s;
+}
+.menuButton{
+    text-align: center;
+}
