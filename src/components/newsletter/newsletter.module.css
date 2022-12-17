@@ -1,0 +1,57 @@
+.container{
+    background-color: rgb(254, 171, 224);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    height: 20vh;
+    width: 100vmax;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+
+}
+
+.newsletter span{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.newsletter input{
+    border: none;
+    border-radius: 0.4rem;
+    height: 3.5vh;
+    width: 70vh;
+    font-weight: lighter;
+    font-size: medium;
+    padding: 0.3rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    display: inline-block;
+}
+
+.newsletter input:focus {
+    outline: none;
+}
+
+.newsletter svg{
+    fill: rgb(254, 171, 224);
+    position:absolute;
+    display:inline-block;
+    width: 2rem;
+    left: 81vh;
+    top: 95.3vh;
+}
+
+.newsletter svg:hover{
+    cursor: pointer;
+}
