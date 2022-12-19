@@ -3,8 +3,11 @@ import Menu from '../components/menu/menu.jsx';
 import Slider from '../components/slider/slider.jsx';
 import Newsletter from '../components/newsletter/newsletter.jsx';
 import Footer from '../components/footer/footer.jsx';
+import Products from '../components/products/products.jsx';
 
 import { Helmet } from 'react-helmet-async';
+
+import styles from '../App.css';
 
 export default function Home(){
 
@@ -17,6 +20,7 @@ export default function Home(){
         <Logo />
         <Menu />
         <Slider />
+         <Products />
         <Newsletter />
         <Footer />
     </main>

@@ -18,7 +18,6 @@
     align-items: center;
     justify-content: space-around;
     height: 10vh;
-
 }
 
 .newsletter span{
@@ -44,12 +43,9 @@
 }
 
 .newsletter svg{
-    fill: rgb(254, 171, 224);
-    position:absolute;
-    display:inline-block;
-    width: 2rem;
-    left: 81vh;
-    top: 95.3vh;
+    height: 5vh;
+    /*fill: rgb(254, 171, 224);*/
+    fill: rgb(255, 13, 166);
 }
 
 .newsletter svg:hover{

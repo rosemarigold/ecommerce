@@ -10,3 +10,32 @@
     height: 40vh;
     width: 100vmax;
 }
+
+.menu{
+    border: 1px red solid;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.menu h1{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    border:1px red solid;
+}
+
+.socialMedia svg{
+    fill:white;
+    padding: none;
+    margin: none;  
+    border:1px red solid;  
+}
